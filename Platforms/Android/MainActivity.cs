@@ -7,7 +7,7 @@ using AvaloniaUI.Xpf.Helpers;
 
 namespace ProjectName;
 
-[Activity(Label = "ProjectName", Theme = "@style/Theme.AppCompat", MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize)]
+[Activity(Label = "ProjectName", Theme = "@style/Theme.AppCompat.NoActionBar", MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize)]
 public class MainActivity : AvaloniaMainActivity<DefaultXpfAvaloniaApplication>
 {
     protected override AppBuilder CustomizeAppBuilder(AppBuilder builder)
